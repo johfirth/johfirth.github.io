@@ -170,7 +170,6 @@ button {
     position:relative;
     box-sizing: border-box;
     width:100%;
-    background-color:#4aaaa5;
     bottom:2px
     
 
@@ -188,12 +187,6 @@ button {
 
 }
 
-.portfolio-items{
-    
-
-    
-
-}
 
 .sidebar {
     box-sizing: border-box;
@@ -371,7 +364,6 @@ button {
         position:relative;
         box-sizing: border-box;
         width:100%;
-        background-color:#4aaaa5;
         bottom:2px
         
     
