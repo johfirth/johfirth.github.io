@@ -1,0 +1,215 @@
+header{
+    background-color: white;
+    height:80px;
+    width: 100%;
+    border-bottom: solid 1px grey;
+    margin-bottom: 60px;
+    box-shadow: 5px grey;
+
+}
+
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+
+
+    
+}
+.teal-container{
+    box-sizing: border-box;
+    background-color: #4aaaa5;
+    height: 80px;
+    width: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    
+}
+
+a:link{
+    text-decoration: none;
+
+}
+
+
+.center{
+    align-items: center;
+}
+
+.nav-menu{
+    Height: 50%;
+    Width: 400px; 
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav-item{
+    flex: 1;
+    border-right: solid 1px lightgrey;
+    padding-right: 5%;
+    text-align: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(images/dust_scratches.png);
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.main {
+    box-sizing: border-box;
+    height: auto;
+    width: 650px;
+    border: solid 1px grey;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    box-shadow: 2px 2px 5px grey;
+}
+
+
+.section-title{
+    box-sizing: border-box;
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px lightgrey;
+
+
+}
+
+.section-image{
+    float: left;
+    margin: 2.5%;
+}
+
+.section-text{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0% 2.5% 0% 2.5%;
+    
+}
+.input-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: grey;
+    padding: 2.5% 2.5% 0% 2.5%;
+    flex-direction: column;
+
+}
+
+input {
+    height:30px;
+    width: 100%;
+    border: solid lightgrey 1px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: black;
+}
+
+textarea {
+    border: solid lightgrey 1px;
+    border-radius: 4px;
+    width: 100%;
+    height: 125px;
+    font-size: 20px;
+    color: black;
+
+}
+
+button {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 2px;
+    background-color: #4aaaa5; 
+    text-align: center;
+    border: solid lightgrey 1px;
+    font-size: 20px;
+    padding: .5em 1.5em .55em 1.5em;
+    margin: 2em 0em 1em 0em;
+}
+
+/* button:click {
+    box-shadow 10px grey;
+} */
+
+.portfolio-container{
+    position:relative;
+    box-sizing: border-box;
+    width:100%;
+    background-color:#4aaaa5;
+    bottom:2px
+    
+
+}
+
+
+
+.portfolio{
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin: 2.5%;
+
+
+}
+
+.portfolio-items{
+    
+
+    
+
+}
+
+.sidebar {
+    box-sizing: border-box;
+    width: 270px;
+    height: 270px;
+    border: solid 1px grey;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px grey;
+
+}
+
+.icon-container{
+    
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+  
+}
+
+
+.footer{
+    box-sizing: border-box;
+    height:80px;
+    width: 100%;
+    background-color: #666666;
+    border-top: solid 5px #4aaaa5;
+    text-align: center;
+    color: lightgrey;
+    margin-top: 15%;
+
+}

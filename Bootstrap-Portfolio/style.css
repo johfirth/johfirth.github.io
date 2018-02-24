@@ -1,0 +1,70 @@
+.tealbox {
+    Background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+
+
+}
+
+
+.custom-heading {
+    color:#4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid lightgrey;
+
+
+}
+
+.custom-nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 1em
+
+}
+
+.custom-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+    padding: .5em 0em .5em 0em;
+
+}
+
+.sectiontext{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    font-size: 10px;
+}
+
+.icon-container{
+    
+    display: flex;
+    justify-content: space-between;
+  
+}
+.portfolio{
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin: 2.5%;
+
+
+}
+
+
+.footer{
+    box-sizing: border-box;
+    height:80px;
+    width: 100%;
+    background-color: #666666;
+    border-top: solid 5px #4aaaa5;
+    text-align: center;
+    color: lightgrey;
+    margin-top: 15%;
+
+}
