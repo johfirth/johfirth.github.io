@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week 4 Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class= "row">
+        <div class= "jumbotron col-md-6 col-md-offset-3">
+            <div class = 'row'>
+                <h3 class = 'col-md-3 vcenter'>Find Me!</h3>
+                <h3 id= "mainNumber" class = "col-md-1 vcenter"></h3>
+                <h3 class = 'col-md-4 col-md-offset-2 vcenter'>Current Number:</h3>
+                <h3 id = 'currentGuess' class = "col-md-1 vcenter">0</h3>
+            </div>
+            <div class = 'row'>
+                <h3 class = 'col-md-3 vcenter'>Wins:</h3>
+                <h3 id = 'wins' class = 'col-md-1 vcenter'></h3>
+                <h3 class = 'col-md-4 col-md-offset-2 vcenter'>Losses:</h3>
+                <h3 id = 'loss' class = 'col-md-1 vcenter'></h3>
+            </div>
+        </div>
+        <br>
+        <div class = "jumbotron col-md-6 col-md-offset-3">
+            <div class = "row">
+                <div class = "col-md-3">
+                    <img src = "images/diamond.png" id = "diamond" class = "img-rounded img-responsive vcenter">
+                </div>
+                <div class = "col-md-3">
+                    <img src = "images/roundgem.png" id = "circle" class = "img-rounded img-responsive vcenter">
+                </div>
+                <div class = "col-md-3">
+                    <img src = "images/squaregem.png" id = "square" class = "img-rounded img-responsive vcenter">
+                </div>
+                <div class = 'col-md-3'>
+                    <img src = 'images/greengem.png' id = 'green' class = "img-rounded img-responsive vcenter">
+                </div>
+                
+            </div>
+           
+        </div>
+    </section>
+    
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.imgsize {
+    height: 150px;
+    width: 150px;
+}
+
+body {
+    background-image: url('images/light.veneer.png');
+}
