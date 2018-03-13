@@ -14,58 +14,22 @@ $('#loss').text(loss);
 
 $("#diamond").on('click', function(){  
     userGuess = userGuess + diamond;
-    $('#currentGuess').text(userGuess);
-    if (userGuess === randomNumber){
-        alert('You Won')
-        win++
-        reset()
-    } else if (userGuess > randomNumber){
-        alert('You Lost!')
-        loss++
-        reset()
-    } else {return};
+    guessCalc();
 })
 
 $("#circle").on('click', function(){
     userGuess = userGuess + circle;
-    $('#currentGuess').text(userGuess);
-    if (userGuess === randomNumber){
-        alert('You Won')
-        win++
-        reset()
-    } else if (userGuess > randomNumber){
-        alert('You Lost!')
-        loss++
-        reset()
-    } else {return};
+    guessCalc();
 })
 
 $('#square').on('click', function(){
     userGuess = userGuess + square;
-    $('#currentGuess').text(userGuess);
-    if (userGuess === randomNumber){
-        alert('You Won')
-        win++
-        reset()
-    } else if (userGuess > randomNumber){
-        alert('You Lost!')
-        loss++
-        reset()
-    } else {return};
+    guessCalc();
 })
 
 $('#green').on('click', function (){
     userGuess = userGuess + green;
-    $('#currentGuess').text(userGuess);
-    if (userGuess === randomNumber){
-        alert('You Won')
-        win++
-        reset()
-    } else if (userGuess > randomNumber){
-        alert('You Lost!')
-        loss++
-        reset()
-    } else {return};
+    guessCalc();
 })
 
 function reset(){
@@ -79,4 +43,17 @@ function reset(){
     $('#currentGuess').text(userGuess);
     $('#wins').text(win);
     $('#loss').text(loss);
+}
+
+function guessCalc(){
+    $('#currentGuess').text(userGuess);
+    if (userGuess === randomNumber){
+        alert('You Won');
+        win++;
+        reset();
+    } else if (userGuess > randomNumber){
+        alert('You Lost!');
+        loss++;
+        reset();
+    } else {return};
 }
