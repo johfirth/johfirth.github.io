@@ -3,6 +3,9 @@
     width: 150px;
 }
 
-body {
-    background-image: url('images/light.veneer.png');
+body{
+    background-image: url("images/light-veneer.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
