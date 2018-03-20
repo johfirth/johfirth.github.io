@@ -8,7 +8,7 @@ var triviaArray = [
     {
         question: "Who is Tony Starks girlfriend?",
         answer: ["Jane Foster", "Pepper Pots", "Jessica Jones", "Natalia Romanova"],
-        rightAnswer: "Pepper Pots",
+        rightAnswer: "Pepper Potts",
         image: "Images/pepperpots.png",
     },
     {
@@ -133,7 +133,7 @@ function endGame(){
     $('#answers').empty();
     $('#navigation').empty();
     var endCredits = $('<h2 class = "col-md-6 col-md-offset-3 text-center">');
-    endCredits.html("Congrats! you got " + win + "/" + (win + loss) + 'correct.');
+    endCredits.html("Congrats! you got " + win + "/" + (win + loss) + ' correct.');
     $('#navigation').append(endCredits);
     var replayButton = $('<button id = "replay" class = "btn btn-default col-md-offset-6 center-block">');
     replayButton.text('Play Again?');
