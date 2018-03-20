@@ -6,7 +6,7 @@ var triviaArray = [
         image: "Images/spiderman.png",
     },
     {
-        question: "Who is Tony Starks girlfriend?",
+        question: "Who is Tony Stark's girlfriend?",
         answer: ["Jane Foster", "Pepper Pots", "Jessica Jones", "Natalia Romanova"],
         rightAnswer: "Pepper Potts",
         image: "Images/pepperpots.png",
