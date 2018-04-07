@@ -91,6 +91,10 @@ $(document).ready(function () {
             + lat + ',' + lng + '&radius=300&type=restaurant&key=AIzaSyB_CLJMgjvx29O0bsd-6Ao_k3zgs9tMz98'
         $.ajax({
             url: placesURL,
+            crossDomain:true,
+            headers: {
+                'Access-Control-Allow-Origin': '*'
+            },
             method: 'GET',
         }).then(function (foodResponse) {
             var newResultCard = $('<div class = "card">');
